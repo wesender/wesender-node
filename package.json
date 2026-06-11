@@ -1,5 +1,5 @@
 {
-  "name": "@nljerry/wesender-node",
+  "name": "@wesender/wesender-node",
   "version": "1.0.0",
   "description": "Officiële Node.js SDK voor de WeSender e-mail API",
   "type": "module",
@@ -24,10 +24,10 @@
   "license":  "MIT",
   "repository": {
     "type": "git",
-    "url":  "https://github.com/nljerry/wesender-node.git"
+    "url":  "https://github.com/wesender/wesender-node.git"
   },
   "homepage": "https://wesender.nl/docs/sdks/nodejs",
-  "bugs":     "https://github.com/nljerry/wesender-node/issues",
+  "bugs":     "https://github.com/wesender/wesender-node/issues",
   "publishConfig": {
     "access":   "public",
     "registry": "https://npm.pkg.github.com"

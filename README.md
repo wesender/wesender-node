@@ -1,13 +1,13 @@
-# @nljerry/wesender-node
+# @wesender/wesender-node
 
 Officiële Node.js / TypeScript SDK voor de [WeSender](https://wesender.nl) e-mail API.
 
 ## Installatie
 
 ```bash
-npm install @nljerry/wesender-node
+npm install @wesender/wesender-node
 # of
-bun add @nljerry/wesender-node
+bun add @wesender/wesender-node
 ```
 
 > Zie [wesender.nl/docs/sdks/nodejs](https://wesender.nl/docs/sdks/nodejs) voor GitHub Packages setup.
@@ -15,7 +15,7 @@ bun add @nljerry/wesender-node
 ## Snel aan de slag
 
 ```typescript
-import { Wesender } from "@nljerry/wesender-node"
+import { Wesender } from "@wesender/wesender-node"
 
 const ws = new Wesender(process.env.WS_API_KEY!)
 
@@ -85,7 +85,7 @@ const webhook = await ws.webhooks.create(
 ## Foutafhandeling
 
 ```typescript
-import { Wesender, WesenderError } from "@nljerry/wesender-node"
+import { Wesender, WesenderError } from "@wesender/wesender-node"
 
 try {
   await ws.emails.send({ ... })
@@ -101,7 +101,7 @@ try {
 - [Documentatie](https://wesender.nl/docs)
 - [API-referentie](https://wesender.nl/docs/api-reference/emails)
 - [Changelog](https://wesender.nl/changelog)
-- [Issues](https://github.com/nljerry/wesender-node/issues)
+- [Issues](https://github.com/wesender/wesender-node/issues)
 
 ## Licentie
 
